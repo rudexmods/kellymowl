@@ -138,7 +138,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ catbot working!')
+            chalk.green.bold('✅ kellymowl working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -402,7 +402,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*ᴄᴀᴛʙᴏᴛ ᴇʀʀᴏʀ*' +
+                                await conn.sendMessage(conn.user.jid, '*kellymowl*' +
                                     '\n\n*💌 ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://youtube.com/channel/UCrnPCbv7jIKqAXQTllDV6Ng \n Report errors\njoin with +91 \n https://chat.whatsapp.com/EceyD88E4OeJwS0w8KUrsC``` ' 
                                     , MessageType.text);
                             }
